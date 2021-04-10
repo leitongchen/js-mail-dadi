@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+
+    background-image: url(../mail/img/simpson-bart.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    background-color: #fad052;
+    height: 100vh;
+
+    padding: 50px;
+
+    font-family: 'Press Start 2P', cursive;
+
+    position: relative;
+}
+
+/* .bg-img-container {
+
+    width: 500px;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.bart-img-bg {
+    width: 100%;
+} 
+
+.wrapper {
+    z-index: 10;
+} */
+
+.logo-container {
+    width: 400px;
+    margin: auto;
+}
+.logo-img {
+    width: 100%;
+}
+
+.box {
+    background-color: rgba(252, 252, 252, .8);
+
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+
+    text-align: center;
+}
+
+.box h1 {
+    color: #3f3f3f;
+
+    font-size: 1rem;
+
+    margin-bottom: 100px;
+}
+
+
+.message-container p {
+    line-height: 1.5rem;
+    font-size: .75rem;
+}
+
