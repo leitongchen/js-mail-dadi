@@ -2,12 +2,12 @@
 var userMail = prompt("Gentile membro della famiglia Simpson, inserisci qui la tua mail").toLowerCase().trim();
 
 
-var accessPermitted = ["homer@mail.com", "marge@mail.com", "lisa@mail.com", "bart@mail.com", "maggie@mail.com"];
+var accessPermitted = ["homer@simpsons.com", "marge@simpsons.com", "lisa@simpsons.com", "bart@simpsons.com", "maggie@simpsons.com"];
 
 
-var mailId = "@mail.com";
+var mailId = "@simpsons.com";
 
-var userInputId = userMail.slice(-9);
+var userInputId = userMail.slice(-13);
 
 
 if (userMail === "" || userMail === null) {
