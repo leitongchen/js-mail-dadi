@@ -7,7 +7,7 @@ var accessPermitted = ["homer@simpsons.com", "marge@simpsons.com", "lisa@simpson
 
 var mailId = "@simpsons.com";
 
-var userInputId = userMail.slice(-14);
+var userInputId = userMail.slice(-13);
 
 
 if (userMail === "" || userMail === null) {
